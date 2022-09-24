@@ -16,6 +16,7 @@ public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(TestConfig.class);
         QuestionParser questionParser = context.getBean(QuestionParser.class);
-        TestRunner.run(context, questionParser);
+        TestRunner testRunner = new TestRunner(context, questionParser);
+        testRunner.run();
     }
 }

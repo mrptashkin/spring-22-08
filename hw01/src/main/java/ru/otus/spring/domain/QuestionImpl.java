@@ -42,5 +42,4 @@ public class QuestionImpl implements Question {
     public String getQuestionText() {
         return questionText;
     }
-
 }

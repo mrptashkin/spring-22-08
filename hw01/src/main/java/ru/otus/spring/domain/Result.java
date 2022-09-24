@@ -1,15 +1,10 @@
 package ru.otus.spring.domain;
 
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-
-@Component
 public class Result {
-    private Student student;
-    private boolean isTestPassed;
+    private final StudentImpl student;
+    private final boolean isTestPassed;
 
-
-    public void checkResult(Student student) {
+    public Result(StudentImpl student) {
         this.student = student;
         int limit = 3;
         isTestPassed = student.getNumberOfCorrectAnswers() >= limit;
@@ -23,9 +18,7 @@ public class Result {
         if (isTestPassed) {
             return string + "\n" + success;
         } else {
-            return string + "\n" + fail;
+            return string + "\n" +fail;
         }
     }
-
-
 }

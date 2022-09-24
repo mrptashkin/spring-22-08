@@ -9,13 +9,9 @@ import ru.otus.spring.control.QuestionParserImpl;
 import ru.otus.spring.domain.*;
 
 @Configuration
-@PropertySource("classpath:application.properties")
+@PropertySource("classpath:/application.properties")
 public class TestConfig {
 
-    @Bean
-    Question question() {
-        return new QuestionImpl();
-    }
 
 
     @Bean

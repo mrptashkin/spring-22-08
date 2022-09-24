@@ -5,7 +5,9 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="QuestionParser" class="ru.otus.spring.control.QuestionParserImpl">
-    <constructor-arg name="resource" value="/table.csv"/>
+        <constructor-arg name="" value="/table.csv"/>
+    </bean>
+    <bean id="Question" class="ru.otus.spring.domain.QuestionImpl">
     </bean>
 
 </beans>
