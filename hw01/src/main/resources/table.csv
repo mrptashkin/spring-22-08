@@ -1,6 +1,0 @@
-questionNumber,questionText,answersNumbers,answersText,isAnswerTrue
-1,Сколько ключевых слов зарезервировано языком Java?,1|2|3,0|25|50,false|false|true
-2,Какой тип данных не является примитивным?,1|2|3|4,boolean|String|float|int,false|true|false|false
-3,Какую функцию выполняет оператор %?,1|2|3,Процент от числа|Остаток от деления|Такого оператора нет,false|true|false
-4,Допустимы ли в Java вложенные циклы?,1|2,Да|Нет,true|false
-5,Как называется код между фигурными скобками?,1|2|3,Секция|Тело|Блок,false|false|true
