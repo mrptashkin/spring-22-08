@@ -7,11 +7,11 @@
 
     <groupId>ru.otus</groupId>
     <artifactId>spring-22-08</artifactId>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
 
     <packaging>pom</packaging>
 
     <modules>
-        <module>hw01</module>
+        <module>hw02</module>
     </modules>
 </project>
