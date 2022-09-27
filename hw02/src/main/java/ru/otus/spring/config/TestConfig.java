@@ -13,7 +13,6 @@ import ru.otus.spring.domain.*;
 public class TestConfig {
 
 
-
     @Bean
     QuestionParser questionParser(@Value("${db.url}") String resource) {
         return new QuestionParserImpl(resource);

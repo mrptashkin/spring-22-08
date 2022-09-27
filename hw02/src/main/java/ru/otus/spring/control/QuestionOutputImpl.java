@@ -4,6 +4,7 @@ import ru.otus.spring.domain.Answer;
 import ru.otus.spring.domain.Question;
 
 public class QuestionOutputImpl implements QuestionOutput {
+
     @Override
     public void outputQuestion(Question question) {
         System.out.println();
